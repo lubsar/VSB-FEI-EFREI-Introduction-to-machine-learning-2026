@@ -29,6 +29,13 @@ The second exercise turns to inspecting and cleaning a raw dataset: distinguishi
 > [Google Colab](https://colab.research.google.com/github/lubsar/VSB-FEI-EFREI-Introduction-to-machine-learning-2026/blob/main/iml_02_overview.ipynb)
 
 
+## Exercise 3
+The third exercise puts Lecture 3 into practice: computing distances between records, seeing how feature scaling reshapes those distances, fitting K-Means and reading its centroids, and choosing a number of clusters with inertia and the silhouette score. A transfer task then asks you to repeat the full pipeline independently on a country-level dataset.
+
+> [Jupyter Notebook](https://github.com/lubsar/VSB-FEI-EFREI-Introduction-to-machine-learning-2026/blob/main/iml_03.ipynb)
+
+> [Google Colab](https://colab.research.google.com/github/lubsar/VSB-FEI-EFREI-Introduction-to-machine-learning-2026/blob/main/iml_03.ipynb)
+
 ## How to create a Python Virtual Enviroment named `venv`
 ### Create `venv`
 ```
