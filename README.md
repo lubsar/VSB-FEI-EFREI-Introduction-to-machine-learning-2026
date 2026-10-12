@@ -36,6 +36,13 @@ The third exercise puts Lecture 3 into practice: computing distances between rec
 
 > [Google Colab](https://colab.research.google.com/github/lubsar/VSB-FEI-EFREI-Introduction-to-machine-learning-2026/blob/main/iml_03.ipynb)
 
+## Exercise 4
+The fourth exercise asks what to do when clusters are not compact, spherical groups around a centroid. K-means, agglomerative clustering and DBSCAN are run on datasets with different geometry; you read a dendrogram, see how the linkage criterion and the cut change the result, and study how `eps` and a nearest-neighbour distance plot drive DBSCAN, including core, border and noise points. The methods are then compared systematically and applied to the wine measurements, ending in a short method-selection memo.
+
+> [Jupyter Notebook](https://github.com/lubsar/VSB-FEI-EFREI-Introduction-to-machine-learning-2026/blob/main/iml_04.ipynb)
+
+> [Google Colab](https://colab.research.google.com/github/lubsar/VSB-FEI-EFREI-Introduction-to-machine-learning-2026/blob/main/iml_04.ipynb)
+
 ## How to create a Python Virtual Enviroment named `venv`
 ### Create `venv`
 ```
