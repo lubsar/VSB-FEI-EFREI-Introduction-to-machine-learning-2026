@@ -57,6 +57,20 @@ The sixth exercise builds a decision tree from the first principle: what impurit
 
 > [Google Colab](https://colab.research.google.com/github/lubsar/VSB-FEI-EFREI-Introduction-to-machine-learning-2026/blob/main/iml_06.ipynb)
 
+## Exercise 7
+The seventh exercise introduces gradient boosting as learning by correcting previous errors: starting from a constant prediction, each new shallow tree is fitted to the current residuals, building up an additive model. You study how the learning rate and the number of trees must be tuned together, see boosting carve a nonlinear classification boundary from simple stumps, and compare it with the Exercise 6 models on breast-cancer data. The number of stages is selected using validation loss, followed by a single final test-set audit, early stopping with an optimised histogram-based implementation, and optional permutation importance. A short assessed memo closes the exercise.
+
+> [Jupyter Notebook](https://github.com/lubsar/VSB-FEI-EFREI-Introduction-to-machine-learning-2026/blob/main/iml_07.ipynb)
+
+> [Google Colab](https://colab.research.google.com/github/lubsar/VSB-FEI-EFREI-Introduction-to-machine-learning-2026/blob/main/iml_07.ipynb)
+
+## Exercise 8
+The eighth exercise is about dimensionality reduction and latent spaces. You start with PCA as the direction of maximum variance, project and reconstruct data, and see how scaling changes what a component means on the wine data. On handwritten digits you decide how many components to keep, then use TruncatedSVD for sparse text data and compare PCA with t-SNE (and optionally UMAP) for two-dimensional visualisation. PCA is also used correctly inside a modelling pipeline, and a guided AI activity asks you to challenge a latent-space interpretation. The exercise ends with a short assessed audit of what a plot can and cannot tell you.
+
+> [Jupyter Notebook](https://github.com/lubsar/VSB-FEI-EFREI-Introduction-to-machine-learning-2026/blob/main/iml_08.ipynb)
+
+> [Google Colab](https://colab.research.google.com/github/lubsar/VSB-FEI-EFREI-Introduction-to-machine-learning-2026/blob/main/iml_08.ipynb)
+
 ## How to create a Python Virtual Enviroment named `venv`
 ### Create `venv`
 ```
